@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo {
+    margin-right: auto;
+    margin-left: 8px;
+}
+
+.nav {
+    display: flex;
+    list-style-type: none;
+    padding: 10px;
+}
+
+.nav a {
+    margin-right: 8px;
+}
+
+section {
+    flex: 1;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #eeeeee;
+}
